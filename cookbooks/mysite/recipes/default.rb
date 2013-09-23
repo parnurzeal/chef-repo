@@ -47,6 +47,7 @@ web_app "mysite_vhost" do
   server_name "parnurzeal.com"
   server_aliases ["www.parnurzeal.com"]
   docroot mysite_source
+  allow_override "all"
 end
 
 # dealing with ssh private/public key for accessing git
